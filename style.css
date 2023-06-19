@@ -84,6 +84,11 @@ body{
 .menu__list-link{
   text-transform: uppercase;
   font-weight: 700;
+
+}
+
+.menu__list-link:hover{
+  text-decoration: underline;
 }
 
 .menu__list-link--active{
@@ -165,9 +170,12 @@ body{
   max-width: 430px;
   width: 100%;
   display: inline-block;
-
   font-size: 24px;
   font-weight: 700;
+}
+
+.top__link:hover{
+  transform: scale(1.1);
 }
 
 .swiper::after{
@@ -423,6 +431,10 @@ body{
   padding: 4px 20px;
 }
 
+.blog__item-link:hover{
+  background-color: #002d70;
+}
+
 .show-more__link{
   color: #fff;
   background-color: #151515;
@@ -431,6 +443,10 @@ body{
   margin: 0 auto;
   text-align: center;
   display: block;
+}
+
+.show-more__link:hover{
+  transform: scale(1.1);
 }
 /*NEW-CARS*/
 .choose-cars{
@@ -453,6 +469,10 @@ body{
   border: none;
   background-color: transparent;
   padding: 0;
+}
+
+.tabs__btn-item:hover{
+  color: #0066FF;
 }
 
 .tabs__btn-item--active{
@@ -503,4 +523,9 @@ body{
   display: block;
   border: 1px solid #06f;
   border-top: 0;
+}
+
+.card__link:hover{
+  background-color: #0066FF;
+  color: #fff;
 }
